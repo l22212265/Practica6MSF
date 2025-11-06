@@ -23,26 +23,14 @@ El modelizado de sistemas fisiológicos es una herramienta importante en Ingenie
 La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estudios de la carrera en Ingeniería Biomédica con la siguiente competencia general del curso: Utiliza las propiedades de los circuitos RLC para describir la dinámica de sistemas fisiológicos, obtener modelos matemáticos y aplicar el control clásico, esto con el objetivo de integrar los principios de la Ingeniería de Control, la Electrónica Analógica y las Ciencias de la Computación con la Anatomía y Fisiología del cuerpo humano para proporcionar descripciones cuantitativas y cualitativas de sistemas fisiológicos complejos con el objetivo de modelizar, analizar, controlar, ilustrar y predecir su dinámica tanto en el corto como en el largo plazo.
 
 ## Objetivos
-1. 
-2. 
+1. Resolver el sistema de EDOs mediante el metodo de Euler.
+2. Utilizar las condiciones iniciales x1 (0) = 59:03, x2 (0) = 44:27 y x3 (0) = 885:42.
+3. Graficar el caso con transfusión sanguinea y sin transfusión sanguinea del individuo.
 
 ## Descripción detallada del sistema
 
- El siguiente modelo matemático de tres EDOs de primer orden es un modelo mecanicista de
- compartimento para la eritropoyesis después de la pérdida de sangre en personas sanas, fenómeno que se
- puede modelizar como un proceso dinámico no lineal.
- Donde x1(t) representa el compartimento de células precursoras eritroides altamente proliferantes con
- respecto a la eritropoyetina, x2 (t) describe el compartimento no proliferante de células precursoras
- eritroides con respecto a la eritropoyetina, y x3 (t) el compartimento para los eritrocitos maduros y
- reticulocitos sanguíneos.
- Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje
- eritroide y que maduran en el primer compartimento de células precursoras eritroides. Las tasas de
- transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y , estas tasas
- son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe
- mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la
- pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros y , que se utilizan
- para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo
- tiene un recuento medio de eritrocitos indicado por el parámetro Base.
+El siguiente modelo matemático de tres EDOs de primer orden es un modelo mecanicista de compartimento para la eritropoyesis después de la pérdida de sangre en personas sanas, fenómeno que se puede modelizar como un proceso dinámico no lineal. Donde x1(t) representa el compartimento de células precursoras eritroides altamente proliferantes con respecto a la eritropoyetina, x2 (t) describe el compartimento no proliferante de células precursoras
+eritroides con respecto a la eritropoyetina, y x3 (t) el compartimento para los eritrocitos maduros y reticulocitos sanguíneos. Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje eritroide y que maduran en el primer compartimento de células precursoras eritroides. Las tasas de transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y , estas tasas son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros y , que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base.
 
 Palabras clave: Eritropoyesis; Regeneracion de globulos rojos; Modelo matematico; Simulaciones numéricas.
 

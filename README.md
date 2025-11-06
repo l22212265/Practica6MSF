@@ -31,9 +31,11 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 El siguiente modelo matemático de tres EDOs de primer orden es un modelo mecanicista de compartimento para la eritropoyesis después de la pérdida de sangre en personas sanas, fenómeno que se puede modelizar como un proceso dinámico no lineal. Donde x1(t) representa el compartimento de células precursoras eritroides altamente proliferantes con respecto a la eritropoyetina, x2 (t) describe el compartimento no proliferante de células precursoras
 eritroides con respecto a la eritropoyetina, y x3 (t) el compartimento para los eritrocitos maduros y reticulocitos sanguíneos. Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje eritroide y que maduran en el primer compartimento de células precursoras eritroides. Las tasas de transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y , estas tasas son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros y , que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base.
 El sistema se resolvio con los siguientes parametros de gamma y beta:
-1. gamma = [0.769, 0.388, 0.510, 0.590,0.262, 0.324, 0.356, 0.089, 0.243, 0.057]
-2. beta = [1.650,0.867,1.617,2.615,1.518,2.676,0.891,2.557,0.925,0.089]
-Y con las siguentes condiciones iniciales:;
+1. gamma = [0.769, 0.388, 0.510, 0.590,0.262, 0.324, 0.356, 0.089, 0.243, 0.057];
+2. beta = [1.650,0.867,1.617,2.615,1.518,2.676,0.891,2.557,0.925,0.089];
+   
+Y con las siguentes condiciones iniciales:
+
 1. x1(0) = 57.2815   57.2456   57.7344   61.6576   59.1265   56.9357   58.2014   57.6006   58.2847   60.8827;
 2. x2(0) = 42.7184   42.6916   43.0562   45.9820   44.0943   42.4605   43.4044   42.9564   43.4666   45.4040;
 3. x3(0) = 859.2221  858.6837  866.0163  924.8643  886.8976  854.0354  873.0213  864.0086  874.2705  913.2401;

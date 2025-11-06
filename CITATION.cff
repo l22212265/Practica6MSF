@@ -2,8 +2,8 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: MATLAB; SPYDER
-message: lenguaje m; python
+title: MATLAB; 
+message: lenguaje m; 
 type: software
 authors:
   - given-names: Yoseline L.
